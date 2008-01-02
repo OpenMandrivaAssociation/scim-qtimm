@@ -19,6 +19,7 @@ URL:		http://sf.net/projects/scim
 Source0:	%{name}-%{version}.tar.bz2
 Patch1:		%{name}-0.9.4-fix-crash.patch
 Patch2:		%{name}-0.9.4-keyboard-layout.patch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	scim   >= %{scim_version}
 Requires:	%{mklibname qt 3} >= %qt_version
 
