@@ -1,0 +1,11 @@
+--- configure.orig	2005-08-17 01:30:35.000000000 +0200
++++ configure	2008-06-02 16:25:54.000000000 +0200
+@@ -34444,7 +34444,7 @@
+ else
+   QTDIR_LOCAL=$QTDIR
+ fi
+-INPUTMETHODSDIR=$QTDIR_LOCAL/plugins/inputmethods
++INPUTMETHODSDIR="$with_qt_libraries"/qt3/plugins/inputmethods
+ 
+ 
+ if test "$kde_qtver" = "3"; then
