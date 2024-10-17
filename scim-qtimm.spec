@@ -15,7 +15,7 @@ Version:	%{version}
 Release:	%{release}
 Group:		System/Internationalization
 License:	GPLv2+
-URL:		http://sf.net/projects/scim
+URL:		https://sf.net/projects/scim
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		scim-qtimm-0.9.4-use-mandriva-qtdir.patch
 Patch1:		%{name}-0.9.4-fix-crash.patch
