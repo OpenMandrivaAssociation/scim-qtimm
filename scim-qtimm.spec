@@ -24,6 +24,11 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	scim   >= %{scim_version}
 Requires:	%{mklibname qt 3} >= %qt_version
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	scim-devel >= %{scim_version}
 BuildRequires:	skim-devel >= %{skim_version}
 BuildRequires:	qt3-devel  >= %qt_version
